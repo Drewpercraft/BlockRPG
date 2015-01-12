@@ -1,0 +1,27 @@
+name: BlockRPG
+author: hitechwizard
+version: 0.0.1_SNAPSHOT
+main: com.drewpercraft.blockrpg.BlockRPG
+name: BlockRPG
+website: www.drewpercraft.com
+description: Commands to support RPG worlds
+depend: []
+
+commands:
+    rob:
+        description: Attempt to commit burglary on a structure
+        usage: /rob
+        permission: blockrpg.rob
+        permission-message: You are not allowed to do that.
+        
+
+permissions:
+    blockrpg.*:
+        description: Gives user access to all RPG commands
+        children:
+            blockrpg.rob: true
+              
+    blockrpg.rob:
+        description: Allow user to commit burglary
+        default: true
+        

@@ -1,0 +1,10 @@
+InvalidPlayer=%s is not a valid player name.
+Your=your
+Enabled=enabled
+Disabled=disabled
+InvalidConsoleCommand=You may not use the %s command from the console.
+PermissionError=You do not have permission to do that.
+ExecptionMessage=BlockRPG command failed and has been logged.
+ReloadSuccess=BlockRPG reloaded succeded.
+ReloadFail=BlockRPG reload failed and has been \u00A74DISABLED!
+ConsoleNotAllowed=This command cannot be used at the console.
